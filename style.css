@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  background-color: grey;
+}
+
+
+#word-container {
+  font-family: monospace;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  max-width: 800px;
+  word-wrap: break-word;
+  color: white;
+  text-align: center; 
+}
+
+  .letter {
+    white-space: pre;
+  }
+
+  .correct {
+    color: black;
+  }
+
+  .incorrect {
+    color: red;
+  }
+
+  .current {
+    background-color: lightblue;
+  }
